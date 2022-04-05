@@ -70,10 +70,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    
+   
 }
+
+
 nav ul{
     display: flex;
+ 
+    
 }
 nav ul li {
    
@@ -154,7 +159,7 @@ nav #click{
     }
     #click:checked ~ ul{
         
-        top:97px;
+        top:33px;
         left: -5%;
         z-index: 2;
     }
@@ -197,7 +202,7 @@ nav #click{
     }
     #click:checked ~ ul{
         
-        top:128px;
+        top:33px;
         left: -40px;
         z-index: 2;
     }
@@ -218,7 +223,7 @@ nav #click{
  
 }
  **/
- h1{
+ #main h1{
     position: absolute;
     top: 45%;
     left: 65%;
@@ -229,7 +234,7 @@ nav #click{
     
 }
 
-h2{
+#main h2{
     position: absolute;
     top: 55%;
     left: 60%;
@@ -239,12 +244,13 @@ h2{
     font-weight: bold;
     
 }
+
 .below{
     z-index: 1;
 }
 
 @media (max-width: 1150px){
-    h1{
+    #main h1{
         position: absolute;
         top: 35%;
         left: 5%;
@@ -254,7 +260,7 @@ h2{
         font-size: 25.56pt;
         font-weight: bold;
     }
-    h2{
+    #main h2{
         position: absolute;
         top: 45%;
         left: 5%;
